@@ -21,6 +21,7 @@ checks:
       - CCI-001849
     oval-ids:
     - xccdf_org:ssgproject:content_rule_rsyslog_cron_logging
+    - rsyslog_cron_logging
   oval:com.puppet.forge.simp.rsyslog.config.main_msg_queue_save_on_shutdown:
     settings:
       parameter: rsyslog::config::main_msg_queue_save_on_shutdown
